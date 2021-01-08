@@ -1,0 +1,2 @@
+[22-Dec-2017 10:16:17 Europe/Minsk] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/sadninfa/public_html/includes/workingWithUser.php on line 47
+[22-Dec-2017 10:16:17 Europe/Minsk] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/sadninfa/public_html/includes/workingWithUser.php on line 47

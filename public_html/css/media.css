@@ -1,0 +1,217 @@
+@media (max-width: 768px) {
+    .container {
+    	margin: auto;
+    	width: auto;
+        }
+    .header-content {
+        grid-template-columns: 1fr 1fr;
+    }
+    .logo img {
+        margin: 0px;
+    }
+    .mob-menu {
+        display: grid;
+    align-self: center;
+    justify-content: flex-end;
+    margin-right: 25px;
+    }
+    .mob-menu img {
+        width: 50px;
+    }
+	.menu {
+        display: none;
+        grid-column: 1 / 3;
+        justify-content: center;
+        margin-right: 0px;
+        text-align: center;
+    }
+    #myroom {
+        display: none;
+    }
+    .menu ul {
+        padding-left: 0px;
+    }
+    .menu li {
+        float: none;
+        margin-right: 0px;
+        margin-bottom: 10px;
+    }
+    .new-slider {
+       grid-template-columns: 1fr; 
+       padding: 10px;
+       height: auto;
+    }
+    .new-boxes {
+        grid-template-columns: 1fr 1fr;
+    }
+    .new-prev {
+        display: none;
+    }
+    .new-next {
+        display: none;
+    }
+    .window {
+        height: 350px;
+    }
+    .window h1 {
+	font-size: 35px;
+    }
+    .footer-blocks h2 {
+        text-align: center;
+    }
+    /*DOSTAVKA*/
+    .dostavka-options {
+        grid-template-rows: auto 1fr;
+    }
+    .options-socseti {
+        grid-template-columns: 1fr;
+        margin-top: 15px;
+    }
+    .dostavka-phone-cash {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+    /*TYPES*/
+    .types-main {
+        grid-template-columns: 1fr;
+    }
+    .types-blocks {
+        grid-template-columns: 1fr 1fr;
+    }
+    #tipy {
+        display: none;
+    }
+    #tipy-select {
+        display: grid;
+        width: 100%;
+        height: 50px;
+        margin-top: 10px;
+        font-size: 16px;
+    }
+    #full_searching {
+        height: 50px;
+        font-size: 16px;
+    }
+    .coast input {
+        height: 50px;
+    }
+    .coast p{
+        text-align: center;
+    }
+    /*CONTACTS*/
+    .contacts-main {
+        grid-template-columns: 1fr;
+    }
+    .contacts-text {
+        text-align: center;
+    }
+    .contacts-map iframe{
+        width: 100%;
+        height: 350px;
+    }
+    .tovar-img img {
+        width: 100%;
+    }
+}    
+
+
+@media (max-width: 576px) {
+    .container {
+	margin: auto;
+	width: auto;
+    }
+    .logo img {
+        margin-left: 0px;
+        width: 250px;
+    }
+    .header-content {
+        padding: 10px;
+    }
+    .mob-menu {
+        display: grid;
+        align-self: center;
+        justify-content: flex-end;
+    }
+    .mob-menu img {
+        width: 40px;
+    }
+    #myroom {
+        display: none;
+    }
+	.menu {
+        display: none;
+    }
+    .new-slider {
+       grid-template-columns: 1fr; 
+       height: auto;
+    }
+    
+    .new-boxes {
+        grid-template-columns: 1fr;
+    }
+    .new-prev {
+        display: none;
+    }
+    .new-next {
+        display: none;
+    }
+    .window {
+        height: 450px;
+    }
+    .window h1 {
+	font-size: 35px;
+    }
+    .footer-blocks {
+        grid-template-columns: 1fr; 
+        padding: 10px;
+    }
+    .footer-blocks h2 {
+        text-align: center;
+    }
+    .footer-block1 li {
+        text-align: center;
+    }
+    /*DOSTAVKA*/
+    .options-socseti {
+        grid-template-columns: 1fr;
+        margin-top: 15px;
+    }
+    .dostavka-phone-cash {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+    /*TYPES*/
+    .types-main {
+        grid-template-columns: 1fr;
+    }
+    .types-blocks {
+        grid-template-columns: 1fr;
+    }
+    #tipy {
+        display: none;
+    }
+    #tipy-select {
+        display: grid;
+        width: 100%;
+        height: 50px;
+        margin-top: 10px;
+    }
+    /*CONTACTS*/
+    .contacts-main {
+        grid-template-columns: 1fr;
+    }
+    .contacts-text {
+        text-align: center;
+    }
+    .contacts-map iframe{
+        width: 100%;
+        height: 350px;
+    }
+    /*TOVAR*/
+    .tovar-content {
+        grid-template-columns: 1fr;
+    }
+    .tovar-img img {
+        width: 100%;
+    }
+}

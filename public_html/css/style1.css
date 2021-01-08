@@ -1,0 +1,313 @@
+.nophoto {
+	position:relative;
+}
+
+#clearphoto {
+	position:absolute;
+    vertical-align: top;
+    z-index:2;
+}
+
+
+
+
+
+.bigblock {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+/*ФОРМА ВХОДА*/
+.login-main {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-gap: 10px;
+	padding: 10px;
+	background: #fff;
+	min-height: 80vh;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	box-shadow: 0px 0px 10px #000;
+}
+.logpas {
+    display: grid;
+    background: #013d45;
+    width: 300px;
+    height: 400px;
+    margin: 0 auto;
+    align-self: center;
+}
+.log {
+    display: grid;
+    color: #fff;
+    justify-content: center;
+    height: 50px;
+align-self: flex-end;
+}
+.user {
+    display: grid;
+    margin: 0 auto;
+    align-self: center;
+}
+.user img {
+    width: 100px;
+}
+.pas {
+    display: grid;
+    color: #fff;
+    justify-content: center;
+    height: 50px;
+align-self: center;
+}
+.vhod {
+    display: grid;
+    justify-content: center;
+    align-self: center;
+}
+.vhod input {
+    width: 150px;
+    height: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.table_blur {
+  background: rgba(238,198,155,0.3);
+  border-collapse: collapse;
+  text-align: left;
+  width: 100%;
+}
+.table_blur th {
+  color: white;
+  padding: 10px 15px;
+  position: relative;
+}
+.table_blur tr:nth-child(odd) {
+  background: rgba(238,198,155,0.3);
+}
+
+.table_blur th:last-child {
+  border-right: 1px solid #777777;
+  border-bottom:  1px solid #777777;
+  box-shadow: inset -1px 1px 0 #999999, inset 0 -1px 0 #999999;
+}
+.table_blur td {
+  border: 1px solid #e3eef7;
+  padding: 10px 15px;
+  position: relative;
+  transition: all 0.5s ease;
+}
+
+
+
+#product_img{
+	width: 100px;
+	height: 100px;
+}
+.picter {
+	width: 200px;
+	height: 200px;
+}
+/*
+#containerModal{
+	overflow: hidden;
+    overflow-x: scroll;
+	width: 700px; /* Ширина блока 
+    height: 200px; /* Высота блока 
+    white-space:nowrap;
+}*/
+#container{
+	overflow: hidden;
+    overflow-x: scroll;
+	width: 100%; /* Ширина блока */
+    height: 200px; /* Высота блока */
+    white-space:nowrap;
+}
+.thumb{
+	display: inline-block;
+    vertical-align: top;
+}
+.tabs { width: 100%; padding: 0px; margin: 0 auto; }
+			.tabs>input { display:none; }
+			.tabs>div { display: none;
+			    padding: 12px;
+			    border: 1px solid #C0C0C0;
+			    background: #fff;
+			}
+			.tabs>label {
+			    display: inline-block;
+			    padding: 7px;
+			    margin: 0 -5px -1px 0;
+			    text-align: center;
+			    color: #fff;
+			    border: 1px solid #C0C0C0;
+			    background: #013d45;
+			    cursor: pointer;
+			}
+			.tabs>input:checked + label {
+			    color: #000000;
+			    border: 1px solid #C0C0C0;
+			    border-bottom: 1px solid #FFFFFF;
+			    background: #FFFFFF;
+			}
+			#tab_1:checked ~ #txt_1,
+			#tab_2:checked ~ #txt_2,
+			#tab_3:checked ~ #txt_3,
+			#tab_4:checked ~ #txt_4,
+			#tab_5:checked ~ #txt_5,
+			#tab_6:checked ~ #txt_6 { display: block; }
+			/*МОДАЛЬНОЕ ОКНО*/
+				.modalDialog {
+					position: fixed;
+					top: 0;
+					right: 0;
+					bottom: 0;
+					left: 0;
+					background: rgba(0,0,0,0.5);
+					z-index: 99999;
+					-webkit-transition: opacity 400ms ease-in;
+					-moz-transition: opacity 400ms ease-in;
+					transition: opacity 400ms ease-in;
+					display: none;
+					pointer-events: none;
+				}
+
+				.modalDialog:target {
+					display: block;
+					pointer-events: auto;
+				}
+
+				.modalDialog > div {
+					display: grid;
+					width: 700px;
+					height: auto;
+					position: relative;
+					margin: 5% auto;
+					background: #fff;
+					transition: 1s ease-in;
+				}
+
+				.modalCategory {
+					position: fixed;
+					top: 0;
+					right: 0;
+					bottom: 0;
+					left: 0;
+					background: rgba(0,0,0,0.5);
+					z-index: 99999;
+					-webkit-transition: opacity 400ms ease-in;
+					-moz-transition: opacity 400ms ease-in;
+					transition: opacity 400ms ease-in;
+					display: none;
+					pointer-events: none;
+				}
+
+				.modalCategory:target {
+					display: block;
+					pointer-events: auto;
+				}
+
+				.modalUser > div {
+					display: grid;
+					width: 700px;
+					height: 500px;
+					position: relative;
+					margin: 5% auto;
+					background: #fff;
+					transition: 1s ease-in;
+				}
+				.modalUser {
+					position: fixed;
+					top: 0;
+					right: 0;
+					bottom: 0;
+					left: 0;
+					background: rgba(0,0,0,0.5);
+					z-index: 99999;
+					-webkit-transition: opacity 400ms ease-in;
+					-moz-transition: opacity 400ms ease-in;
+					transition: opacity 400ms ease-in;
+					display: none;
+					pointer-events: none;
+				}
+
+				.modalUser:target {
+					display: block;
+					pointer-events: auto;
+				}
+
+				.modalCategory > div {
+					display: grid;
+					width: 700px;
+					height: 500px;
+					position: relative;
+					margin: 5% auto;
+					background: #fff;
+					transition: 1s ease-in;
+				}
+				
+				.close {
+                	background: #013d45;
+                	color: #FFFFFF;
+                	line-height: 25px;
+                	position: absolute;
+                	right: -12px;
+                	text-align: center;
+                	top: -10px;
+                	width: 24px;
+                	text-decoration: none;
+                	font-weight: bold;
+                	border: 1px solid white;
+                }
+				.mod-block {
+				    display: grid;
+				    grid-template-columns: 1fr 1fr;
+				    grid-gap: 5px;
+				}
+				.mod-block1 {
+				    padding: 10px;
+				}
+				.mod-block2 {
+				    padding: 10px;
+				}
+				.mod-block3 {
+				    padding: 10px;
+				}
+				.mod-block4 {
+				    padding: 10px;
+				}
+				
+				
+				
+				
+				
+				
+				
+				#name {
+				    width: 200px;
+				    margin-bottom: 10px;
+				}
+				#coast {
+				    width: 200px;
+				    margin-bottom: 10px;
+				}
+				#selectСategory {
+                      width: 200px;  
+                    }
